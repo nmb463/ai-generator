@@ -13,7 +13,7 @@ function generatePoem(event) {
     let instructionsInput = document.querySelector("#user-instructions");
     let apiKey = "f917a08757btf485b3af40o0e41087f1";
     let prompt = `User instructions: Generate a poem about ${instructionsInput.value}`;
-    let context = "You are a romantic poem expert and love to write short poems. Your mission is to generate a 4 line poem in basic HTML and separate each line with a single <br />. Make sure to follow the user instructions. Do not include a title to the poem. Sign the poem using a <strong> element with 'SheCodes AI' at the end of the poem. There is no need to state that it is html";
+    let context = "You are a romantic poem expert and love to write short poems. Your mission is to generate a 4 line poem in basic HTML and separate each line with a single <br />. Make sure to follow the user instructions. Do not include a title to the poem. Sign the poem on a separate line using a <strong> element with 'SheCodes AI' after the end of the poem. There is no need to state that it is html";
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
     let poemElement = document.querySelector("#poem");
