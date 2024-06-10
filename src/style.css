@@ -1,15 +1,6 @@
 body {
-    background-color: #f9f7fe;
+    background-color: #f4dada; 
     font-family: "Arial", sans-serif;
-}
-
-a {
-    color: #885df1;
-}
-
-.container {
-    margin: 120px auto;
-    max-width: 600px;
 }
 
 header {
@@ -22,6 +13,26 @@ h1 {
     font-size: 36px;
     line-height: 1.5;
     color: #272044;   
+    font-family: "Libre Baskerville", serif;
+}
+
+form {
+    display: flex;
+}
+
+a {
+    color: #885df1;
+}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.container {
+    margin: 120px auto;
+    max-width: 600px;
 }
 
 .form-container {
@@ -32,16 +43,6 @@ h1 {
     box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 
-form {
-    display: flex;
-}
-
-.hint {
-    font-size: 12px;
-    line-height: 1.5;
-    opacity: 0.6;
-    margin-top: 5px;
-}
 
 .instructions {
     font-size: 16px;
@@ -55,7 +56,7 @@ form {
 
 .submit-button {
     margin-left: 10px;
-    background-color: #885df1;
+    background-color:  #b8b2a6; 
     color: #fff;   
     border: none;
     width: 150px;
@@ -64,13 +65,21 @@ form {
     padding: 14px 24px;
 }
 
+.hint {
+    font-size: 12px;
+    line-height: 1.5;
+    opacity: 0.6;
+    margin-top: 5px;
+}
+
 .poem {
     background-color: #fff;
     padding: 20px;
-    font-size: 16px;
+    font-size: 30px;
     line-height: 2;
-    border-left: 3px solid #885df1;
+    border-left: 3px solid #b8b2a6; 
     box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+    font-family: "Caveat", cursive;
 }
 
 .poem strong {
@@ -79,12 +88,6 @@ form {
 
 .hidden {
     display: none;
-}
-
-footer {
-    text-align: center;
-    font-size: 13px;
-    margin-top: 30px;
 }
 
 .generating {
@@ -102,4 +105,3 @@ footer {
       visibility: hidden;
     }
 }
-
